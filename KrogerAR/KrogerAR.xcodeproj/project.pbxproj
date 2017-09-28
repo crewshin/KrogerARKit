@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5EE6DD1F7B2E4900205040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5EE6DC1F7B2E4900205040 /* AppDelegate.swift */; };
+		2C5EE6E21F7B2E4900205040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5EE6E01F7B2E4900205040 /* Main.storyboard */; };
+		2C5EE6E41F7B2E4900205040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5EE6E31F7B2E4900205040 /* Assets.xcassets */; };
+		2C5EE6E71F7B2E4900205040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5EE6E51F7B2E4900205040 /* LaunchScreen.storyboard */; };
+		2C5EE6EF1F7B2EF400205040 /* SolarSystemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5EE6EE1F7B2EF400205040 /* SolarSystemController.swift */; };
+		2C5EE6F31F7B3CCA00205040 /* SolarSystem.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5EE6F21F7B3CCA00205040 /* SolarSystem.scnassets */; };
+		2C5EE6F71F7B4BED00205040 /* PlanetSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5EE6F61F7B4BED00205040 /* PlanetSelectionController.swift */; };
+		2C5EE6FB1F7B559F00205040 /* SpaceObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5EE6FA1F7B559F00205040 /* SpaceObjects.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C5EE6D91F7B2E4900205040 /* KrogerAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrogerAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5EE6DC1F7B2E4900205040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C5EE6E11F7B2E4900205040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C5EE6E31F7B2E4900205040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5EE6E61F7B2E4900205040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C5EE6E81F7B2E4900205040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5EE6EE1F7B2EF400205040 /* SolarSystemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemController.swift; sourceTree = "<group>"; };
+		2C5EE6F21F7B3CCA00205040 /* SolarSystem.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = SolarSystem.scnassets; sourceTree = "<group>"; };
+		2C5EE6F61F7B4BED00205040 /* PlanetSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSelectionController.swift; sourceTree = "<group>"; };
+		2C5EE6FA1F7B559F00205040 /* SpaceObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceObjects.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5EE6D61F7B2E4900205040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5EE6D01F7B2E4900205040 = {
+			isa = PBXGroup;
+			children = (
+				2C5EE6DB1F7B2E4900205040 /* KrogerAR */,
+				2C5EE6DA1F7B2E4900205040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5EE6DA1F7B2E4900205040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5EE6D91F7B2E4900205040 /* KrogerAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5EE6DB1F7B2E4900205040 /* KrogerAR */ = {
+			isa = PBXGroup;
+			children = (
+				2C5EE6DC1F7B2E4900205040 /* AppDelegate.swift */,
+				2C5EE6EE1F7B2EF400205040 /* SolarSystemController.swift */,
+				2C5EE6F61F7B4BED00205040 /* PlanetSelectionController.swift */,
+				2C5EE6E01F7B2E4900205040 /* Main.storyboard */,
+				2C5EE6E31F7B2E4900205040 /* Assets.xcassets */,
+				2C5EE6E51F7B2E4900205040 /* LaunchScreen.storyboard */,
+				2C5EE6E81F7B2E4900205040 /* Info.plist */,
+				2C5EE6F21F7B3CCA00205040 /* SolarSystem.scnassets */,
+				2C5EE6FA1F7B559F00205040 /* SpaceObjects.swift */,
+			);
+			path = KrogerAR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5EE6D81F7B2E4900205040 /* KrogerAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5EE6EB1F7B2E4900205040 /* Build configuration list for PBXNativeTarget "KrogerAR" */;
+			buildPhases = (
+				2C5EE6D51F7B2E4900205040 /* Sources */,
+				2C5EE6D61F7B2E4900205040 /* Frameworks */,
+				2C5EE6D71F7B2E4900205040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrogerAR;
+			productName = KrogerAR;
+			productReference = 2C5EE6D91F7B2E4900205040 /* KrogerAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5EE6D11F7B2E4900205040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TheAppDoctor;
+				TargetAttributes = {
+					2C5EE6D81F7B2E4900205040 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C5EE6D41F7B2E4900205040 /* Build configuration list for PBXProject "KrogerAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5EE6D01F7B2E4900205040;
+			productRefGroup = 2C5EE6DA1F7B2E4900205040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5EE6D81F7B2E4900205040 /* KrogerAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5EE6D71F7B2E4900205040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5EE6F31F7B3CCA00205040 /* SolarSystem.scnassets in Resources */,
+				2C5EE6E71F7B2E4900205040 /* LaunchScreen.storyboard in Resources */,
+				2C5EE6E41F7B2E4900205040 /* Assets.xcassets in Resources */,
+				2C5EE6E21F7B2E4900205040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5EE6D51F7B2E4900205040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5EE6EF1F7B2EF400205040 /* SolarSystemController.swift in Sources */,
+				2C5EE6DD1F7B2E4900205040 /* AppDelegate.swift in Sources */,
+				2C5EE6F71F7B4BED00205040 /* PlanetSelectionController.swift in Sources */,
+				2C5EE6FB1F7B559F00205040 /* SpaceObjects.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C5EE6E01F7B2E4900205040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5EE6E11F7B2E4900205040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5EE6E51F7B2E4900205040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5EE6E61F7B2E4900205040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C5EE6E91F7B2E4900205040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5EE6EA1F7B2E4900205040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5EE6EC1F7B2E4900205040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB7685UJ8Y;
+				INFOPLIST_FILE = KrogerAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappdoctor.KrogerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5EE6ED1F7B2E4900205040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB7685UJ8Y;
+				INFOPLIST_FILE = KrogerAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappdoctor.KrogerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5EE6D41F7B2E4900205040 /* Build configuration list for PBXProject "KrogerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5EE6E91F7B2E4900205040 /* Debug */,
+				2C5EE6EA1F7B2E4900205040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5EE6EB1F7B2E4900205040 /* Build configuration list for PBXNativeTarget "KrogerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5EE6EC1F7B2E4900205040 /* Debug */,
+				2C5EE6ED1F7B2E4900205040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C5EE6D11F7B2E4900205040 /* Project object */;
+}

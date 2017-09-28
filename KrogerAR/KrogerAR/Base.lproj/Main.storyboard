@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ede-Gk-Pvw">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Space-->
+        <scene sceneID="8Ru-rB-aEA">
+            <objects>
+                <viewController storyboardIdentifier="SolarSystemController" id="jwr-JL-G4q" customClass="SolarSystemController" customModule="KrogerAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WiG-Rp-qDw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oN-8c-fQQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                            </arscnView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJh-0h-hQY">
+                                <rect key="frame" x="16" y="550" width="176.5" height="44"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="a2t-WP-d6b">
+                                    <rect key="frame" x="0.0" y="0.0" width="176.5" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initializing AR session." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpK-0R-z2s">
+                                            <rect key="frame" x="8" y="8" width="160.5" height="28"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="YpK-0R-z2s" secondAttribute="bottom" constant="8" id="Ikp-S5-2IZ"/>
+                                        <constraint firstItem="YpK-0R-z2s" firstAttribute="leading" secondItem="a2t-WP-d6b" secondAttribute="leading" constant="8" id="ROm-Xk-H4c"/>
+                                        <constraint firstAttribute="trailing" secondItem="YpK-0R-z2s" secondAttribute="trailing" constant="8" id="Z27-cd-wuU"/>
+                                        <constraint firstItem="YpK-0R-z2s" firstAttribute="top" secondItem="a2t-WP-d6b" secondAttribute="top" constant="8" id="uWo-V1-1WK"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aZA-f7-zri"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dgq-G9-Syx">
+                                <rect key="frame" x="315" y="550" width="44" height="44"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Q2s-SQ-5oP">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planetBtn" translatesAutoresizingMaskIntoConstraints="NO" id="GD9-c5-tbe">
+                                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                            <gestureRecognizers/>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="m6P-Qz-VF1" appends="YES" id="2au-ua-xXu"/>
+                                            </connections>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="GD9-c5-tbe" firstAttribute="top" secondItem="Q2s-SQ-5oP" secondAttribute="top" id="Xgy-Oq-dmo"/>
+                                        <constraint firstItem="GD9-c5-tbe" firstAttribute="leading" secondItem="Q2s-SQ-5oP" secondAttribute="leading" id="aGM-gq-XmA"/>
+                                        <constraint firstAttribute="trailing" secondItem="GD9-c5-tbe" secondAttribute="trailing" id="bt4-LY-Hmo"/>
+                                        <constraint firstAttribute="bottom" secondItem="GD9-c5-tbe" secondAttribute="bottom" id="zMe-bi-lRQ"/>
+                                    </constraints>
+                                </view>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="TJA-1T-ReX"/>
+                                    <constraint firstAttribute="height" constant="44" id="uS9-RY-MMm"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4oN-8c-fQQ" firstAttribute="leading" secondItem="7ce-tc-BhT" secondAttribute="leading" id="2UW-hk-0Hm"/>
+                            <constraint firstItem="4oN-8c-fQQ" firstAttribute="bottom" secondItem="7ce-tc-BhT" secondAttribute="bottom" id="3lB-yM-xm8"/>
+                            <constraint firstItem="4oN-8c-fQQ" firstAttribute="top" secondItem="WiG-Rp-qDw" secondAttribute="top" id="II7-s1-OLK"/>
+                            <constraint firstItem="Dgq-G9-Syx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aJh-0h-hQY" secondAttribute="trailing" constant="16" id="PLh-Eq-24W"/>
+                            <constraint firstItem="7ce-tc-BhT" firstAttribute="bottom" secondItem="Dgq-G9-Syx" secondAttribute="bottom" constant="24" id="RzP-eC-Ytz"/>
+                            <constraint firstItem="aJh-0h-hQY" firstAttribute="leading" secondItem="7ce-tc-BhT" secondAttribute="leading" constant="16" id="Vll-mF-GiS"/>
+                            <constraint firstItem="4oN-8c-fQQ" firstAttribute="trailing" secondItem="7ce-tc-BhT" secondAttribute="trailing" id="gdl-0Y-QSA"/>
+                            <constraint firstItem="7ce-tc-BhT" firstAttribute="bottom" secondItem="aJh-0h-hQY" secondAttribute="bottom" constant="24" id="kXd-MA-HR8"/>
+                            <constraint firstItem="7ce-tc-BhT" firstAttribute="trailing" secondItem="Dgq-G9-Syx" secondAttribute="trailing" constant="16" id="y0e-Bo-oBN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7ce-tc-BhT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Space" id="rpJ-l4-yIQ"/>
+                    <connections>
+                        <outlet property="descriptionContainer" destination="aJh-0h-hQY" id="WiQ-WO-jy9"/>
+                        <outlet property="descriptionLabel" destination="YpK-0R-z2s" id="NTW-hw-L2h"/>
+                        <outlet property="earthImageViewContainer" destination="Dgq-G9-Syx" id="y6g-pX-58v"/>
+                        <outlet property="sceneView" destination="4oN-8c-fQQ" id="ZiQ-7f-L1i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BPR-6o-0Mb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="m6P-Qz-VF1">
+                    <connections>
+                        <action selector="planetAction:" destination="jwr-JL-G4q" id="519-vf-Qei"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18" y="-116"/>
+        </scene>
+        <!--Planet Selection Controller-->
+        <scene sceneID="Of2-KG-px0">
+            <objects>
+                <tableViewController storyboardIdentifier="PlanetSelectionController" id="5Q8-Oi-IJZ" customClass="PlanetSelectionController" customModule="KrogerAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="xyn-TH-Nwc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SolarSystemCell" textLabel="Uyd-S3-6hO" detailTextLabel="MYE-is-MhN" style="IBUITableViewCellStyleSubtitle" id="nC5-lg-ujc">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nC5-lg-ujc" id="8eE-lb-8gB">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uyd-S3-6hO">
+                                            <rect key="frame" x="16" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MYE-is-MhN">
+                                            <rect key="frame" x="16" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="5Q8-Oi-IJZ" id="OFf-AG-sF0"/>
+                            <outlet property="delegate" destination="5Q8-Oi-IJZ" id="tO7-e3-Wte"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sBs-dR-0oP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="-116"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="LBR-iW-gTJ">
+            <objects>
+                <tabBarController id="ede-Gk-Pvw" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f1h-qx-FA9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jwr-JL-G4q" kind="relationship" relationship="viewControllers" id="Jov-cZ-F5h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJB-rk-ldq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-810" y="-116"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="planetBtn" width="48" height="48"/>
+    </resources>
+</document>
